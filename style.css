@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url(https://images.unsplash.com/photo-1578926078640-668b1fb75403?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1666&q=80) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 21, 37);
+}
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1 px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 727px;
+    object-fit: cover;
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/1909059/pub_62a9760686dde05b87a22585_62a98209607c09351154cfe3/scale_1200);
+}
+
+article img {
+    width: 100%;
+    height: 727px;
+    object-fit: cover;
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/5232922/pub_6221ab34e5bd2d4beb4c869c_6221ab7c8263c63eb7c32aba/scale_1200);
+}
+
+article img {
+    width: 100%;
+    height: 727px;
+    object-fit: cover;
+    background-image: url(https://arthive.net/res/media/img/oy1000/work/8ee/390740.webp);
+}
+
+article img {
+    width: 100%;
+    height: 727px;
+    object-fit: cover;
+    background-image: url(https://i.pinimg.com/736x/54/52/7e/54527e1de2f6d027846f235cbfbaff4c--rose-thorns-indianapolis-museum.jpg);
+}
+
+article img {
+    width: 100%;
+    height: 727px;
+    object-fit: cover;
+    background-image: url(https://avatars.dzeninfra.ru/get-zen_doc/5218824/pub_6247e682dc4580633cabd594_6247e6ff285db46f50964b51/scale_1200);
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
